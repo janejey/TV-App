@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat&family=Roboto&family=Source+Code+Pro&display=swap');
+
+.main-container {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+    
+    .movie-info {
+        margin-top: 200px;
+        margin-left: 10%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+
+        div{
+            margin-top: 10px;
+        }
+    }
+
+    .category {
+        text-transform: uppercase;
+        color: #848587;
+        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 4px;
+    }
+    
+    .year-rate-dur {
+        display: flex;
+
+        div{
+            margin-right: 15px;
+        }
+    }
+    
+    .buttons {
+        display: flex;
+
+        .play{
+            width: 150px;
+            height: 50px;
+            background: white;
+            color: black;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bolder;
+            cursor: pointer;
+            font-size: 20px;
+            
+            &:hover{
+               background:rgb(163, 163, 163);
+               transition: .2s;
+            }
+            
+            img{
+                margin-right: 7px;
+            }
+        }
+
+        .more-info {
+            margin-left: 10px;
+            width: 150px;
+            height: 50px;
+            background: linear-gradient(90deg, rgba(35,37,233,1) 0%, rgba(4,24,126,1) 100%);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 20px;
+            border: 1px solid transparent;
+
+            &:hover {
+                border: 1px solid white;
+
+            }
+        }
+    }
+}
+
+.slider-container{
+    width: 92%;
+    margin-left: 8%;
+
+    .owl-stage-outer{
+        height: 100%;
+
+        .owl-stage{
+            height: 100%;
+
+            .item{
+                width: 100%;
+            }
+        }
+    }
+}

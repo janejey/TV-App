@@ -1,0 +1,25 @@
+.item-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+        &:hover {
+            background-color: #3B486D;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 250px;
+        }
+
+    img {
+        margin: 0 40px 0 0;
+        width: auto;
+        height: 30px;
+    }
+}
+
+.selected{
+    border-radius: 50%;
+    background: #232A3F;
+    height: 30px;
+    width: 28px;
+}
